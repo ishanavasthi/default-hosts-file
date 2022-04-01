@@ -22,6 +22,32 @@ By default, the HOSTS file is protected by the operating system so you’re unab
 ![Location of Hosts File](https://www.top-password.com/blog/wp-content/uploads/2018/11/open-the-hosts-file.png)
 
 #### Now, paste the [following text](https://raw.githubusercontent.com/avasthi-git/default-hosts-file/main/hosts) into Notepad:
+
+```
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+#
+# localhost name resolution is handle within DNS itself.
+# 127.0.0.1 localhost
+# ::1 localhost
+
+```
+
 ![Paste the following code](https://www.top-password.com/blog/wp-content/uploads/2018/11/reset-hosts-file-to-default.png)
 
 #### Click on the File menu and Save. Now you’ve successfully reset the HOSTS file back to default in Windows 10.
